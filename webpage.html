@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+	body {
+	  background-color: lightseagreen;
+	}
+
+	h1 {
+	  background-color:black;
+	  color: orangered;
+	  text-align: center;
+	}
+	h2 {
+	  background-color:lightyellow;
+	  color: black;
+	  text-align: center;
+	}
+
+	p {
+	  font-family: verdana;
+	  font-size: 22px;
+	}
+	h2.2{
+		font-size: 25px;
+		text-align: center;
+	}
+	div {
+	  font-family: montserrat;
+	  font-size: 50px;
+	  margin: all;
+	  padding: 200px;
+	  text-align: right;
+	}
+	p.1{
+		font-size: 10px;
+		padding: 2px;
+	}
+	div.desc {
+	  padding: 200px;
+	  text-align: center;
+	  font-size: 40px;
+	}
+	
+	nav{
+		background-color:black;
+		margin: all;
+		text-align: all;
+		padding: 10px;
+		text-decoration: underline;
+	}
+	a{
+		color: white;
+		margin: width: 100px;
+		padding: 110px;
+	}
+	footer{
+		background-color:black;
+		color: white;
+		font-size: 10px;
+	}
+	ul{
+		color: blue;
+		font-size: 22px;
+	}
+	
+	img {
+	  border-radius: 50%;
+	  position: absolute;
+        right: 500px;
+        left: 500px;
+	}
+	img.pos{
+		position: absolute;
+        left: 0px;
+         width: 500px ;
+         height: 200px;
+	}
+	
+	
+	/* Create three equal columns that floats next to each other */
+	.column {
+	  float: left;
+	  width: 33.33%;
+	  padding: 15px;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+	@media screen and (max-width:100px) {
+	  .column {
+	    width: 100%;
+	  }
+	}
+	img.pd{
+		 width: 200px ;
+         height: 200px;
+		padding: 5px;
+
+	}
+	label{
+		font-size: 20px;
+	}
+	</style>
+	<title>WEB DEVELOPMENT TASK</title>
+</head>
+<body>
+
+    <h1>This is a HTML webpage created using advanced CSS.</h1><br>
+    <form>
+	  <label for="gsearch">Search Google:</label>
+	  <input type="search" id="gsearch" name="gsearch">
+	</form>
+    <nav>
+      <a href="/HOME/" target="_blank">HOME</a> |
+      <a href="/PROJECTS/" target="_blank">PROJECTS</a> |
+      <a href="/ABOUT/" target="_blank">ABOUT</a> |
+      <a href="/CONTACT/" target="_blank">CONTACT</a>
+    </nav>
+     
+    <h2 ><i class="glyphicon glyphicon-home"></i>Home Page</h2>
+    <p>This is the home page of the HTML webpage.
+    </p>
+
+    <div>
+     <img class="pos" src="https://images.unsplash.com/photo-1580894908361-967195033215?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" > 
+     <strong>Hello,I'm Dakshayani</strong><br>a <strong>"WEBDEV"</strong> enthusiast
+    </div>
+     
+    <h2 >Projects</h2>
+
+    <p >This is the projects page and it gives the information about the projects that have been taken up by me.<br>
+     <br>
+    
+	  <a target="_blank" href="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80">
+	    <img class="pd" src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80" width="200" height="200">
+	  </a>
+	  <div class="desc">PYTHON</div>
+	
+	  <a target="_blank" href="https://images.unsplash.com/photo-1593720218365-b2076cfdefee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80">
+        <img class="pd" src="https://images.unsplash.com/photo-1593720218365-b2076cfdefee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" width="200" height="200">
+       </a>
+	  <div class="desc">WEB DEVELOPMENT</div>
+	 
+	  <a target="_blank" href="https://images.unsplash.com/photo-1528028018421-7787621bd55d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80">
+        <img class="pd" src="https://images.unsplash.com/photo-1528028018421-7787621bd55d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" width="200" height="200">
+        </a>
+     <div class="desc">C PROGRAMMING
+    </div>
+	
+   <h2 >About</h2>
+      <p>This is the about page and this contains the following contents:
+   <br>
+    
+    <ul>
+	  <li>About Us</li>
+	  <li>Testimonials</li>
+	  <li>Our Clients</li>
+    </ul>
+
+ 
+	<div class="row">
+	  <div class="column">
+	    <h2 class="2">ABOUT US</h2>
+	    <p class="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+	  </div>
+	 
+	  <div class="column">
+	    <h2 class="2">TESTIMONIALS</h2>
+	    <p class="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+	  </div>
+	 
+	  <div class="column">
+	    <h2 class="2">OUR CLIENTS</h2>
+	    <p class="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+	  </div>
+    </div>
+
+     <h2 ><i class="glyphicon glyphicon-user"></i>Contact</h2>
+     <form style="padding: auto;">
+     	<i class="glyphicon glyphicon-envelope"></i>
+	  <label for="email">Enter your email:</label>
+	  <input type="email" id="email" name="email"><br>
+	   <i class="glyphicon glyphicon-phone"></i>
+	  <label for="phone">Enter your phone number:</label>
+	  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    <hr>
+	</form>
+	
+	<footer>
+	  <p style="text-align:justify;">Copyrights@2021 
+	  <a style="color: red;"  href="mailto:abcd@example.com">abcd@example.com</a>
+	      All Rights Reserved</p>
+	</footer>
+</body>
+</html>
